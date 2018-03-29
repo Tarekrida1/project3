@@ -1,0 +1,37 @@
+/*************** start default theme *********/
+body {
+    background-color: #ea6b3d;
+}
+
+.container-fluid,
+.dropdown-menu > li > a:hover{background-color:#d02222;
+}
+.navbar-default .navbar-nav >li >a:hover {color: white;
+background: #f34a4a}
+
+.dropdown-menu {background-color: #d02222;
+    border-top: 3px solid #d02222;
+}
+
+
+.dropdown-menu .divider,
+.carousel-indicators .active{
+    background-color: #f34a4a;
+}
+
+.option-box .color-option {
+    border: 4px solid #d02222;  
+}
+
+.about h1 span,
+.footer h3,
+.copyright span{
+    color: #d02222
+}
+.testimonials .carousel-indicators li {
+    border: 3px solid #f34a4a;
+}
+.testimonials .carousel-indicators li.active{
+border: 3px solid #d02222}
+
+/*************** end default theme *********/

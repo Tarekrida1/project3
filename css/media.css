@@ -1,0 +1,9 @@
+@media (max-width:768px)
+{
+    .nav {
+    padding-left: 0px;
+}
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: none;
+}
+}

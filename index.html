@@ -1,0 +1,630 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TaReK RiDa</title>
+<meta name="description" content="An interactive getting started guide for Brackets.">
+<link rel="stylesheet" href="css\bootstrap.css">
+<link rel="stylesheet" href="css\font-awesome.min.css">
+<link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="css\default-theme.css">
+    <link rel="stylesheet" href="css\media.css">
+        <link rel="stylesheet" href="css\animate.css">
+     <link rel="stylesheet" href="css\hover-min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="images\mylogo2 copy.png">
+            <link>
+</head>
+      
+<script src="js\jquery-1.12.1.min.js"></script>
+<script src="js\bootstrap.min.js"></script>
+    <script src="js\plugin.js"></script>
+       <script src="js\wow.min.js"></script>
+    <script>new WOW().init();</script>
+       <script src="js\jquery.nicescroll.min.js"></script>
+<body>
+    
+       <!------------- start toolbox -------------------------->
+    <section class="option-box  wow lightSpeedIn" data-wow-duration="1s">
+    <div class="color-option  wow lightSpeedIn" data-wow-duration="1s">
+        <h4 class=" wow lightSpeedIn" data-wow-duration="1s">Color Option</h4>
+        <ul class="list-unstyled">
+        <li class=" wow zoomInUp" data-wow-duration="1s" data-wow-delay="0.15" data-value="css/default-theme.css"></li>
+             <li class=" wow zoomInUp" data-wow-duration="2s" data-wow-delay="0.25s" data-value="css/green-theme.css"></li>
+             <li class=" wow zoomInUp" data-wow-duration="2s" data-wow-delay="0.35s" data-value="css/orange-theme.css"></li>
+            <li class=" wow zoomInUp" data-wow-duration="2s" data-wow-delay="0.40s" data-value="css/red-theme.css"></li>
+            <li class=" wow zoomInUp" data-wow-duration="2s" data-wow-delay="0.50s" data-value="css/black-theme.css"></li>
+        </ul>
+        </div>
+        <i class="fa fa-gear fa-3x gear-check"></i>
+       
+    </section>
+        
+    <!------------- end toolbox -------------------------->
+  
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+<a class="navbar-brand  wow rubberBand" data-wow-iteration="5" data-wow-duration="3s" href="#">Tarek Rida</a>
+
+
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav wow bounceInRight" data-wow-duration="1s">
+<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+
+
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+  <ul class="dropdown-menu wow fadeInDown" data-wow-duration="1s">
+    <li><a href="#">Html5</a></li>
+    <li><a href="#">Css3</a></li>
+    <li><a href="#">BootStrap</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Media Query</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">JQuery</a></li>
+  </ul>
+    <li><a href="#my-works">My Works</a></li>
+  <li><a href="#about-me">About Me</a></li>
+  <li><a href="#contact-me">Contact Me</a></li>
+
+</li></ul>
+
+</div>   
+</div>
+</nav>
+<div class="clear"></div>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators hidden-xs">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner wow slideInDown" role="listbox">
+<div class="item active">
+<img src="slider\1.jpg" alt="...">
+<div class="carousel-caption wow rotateInDownRight" data-wow-delay="1s">
+  <h1>Wellcome To Tarek Website</h1>
+  <p>Studied at Faculty of Tourism and Hotels, South Valley University , I am Looking for more experience , My LANGUAGES : Arabic (Mother tongue) ..	English (Very Good) .. Italian (Fair)
+</p>
+  <div class="btn btn-primary">More About Me</div>
+</div>
+</div>
+<div class="item">
+<img src="slider\2.jpg" alt="...">
+<div class="carousel-caption wow rotateInDownLeft" data-wow-delay="1s">
+  <h1>Wellcome To Tarek Website</h1>
+  <p>Studied at Faculty of Tourism and Hotels, South Valley University , I am Looking for more experience , My LANGUAGES : Arabic (Mother tongue) ..	English (Very Good) .. Italian (Fair)
+</p>
+  <div class="btn btn-primary">More About Me</div>
+</div>
+</div>
+ <div class="item">
+<img src="slider\3.jpg" alt="...">
+<div class="carousel-caption wow rotateInUpLeft" data-wow-delay="1s">
+  <h1>Wellcome To Tarek Website</h1>
+  <p>Studied at Faculty of Tourism and Hotels, South Valley University , I am Looking for more experience , My LANGUAGES : Arabic (Mother tongue) ..	English (Very Good) .. Italian (Fair)
+</p>
+  <div class="btn btn-primary">More About Me</div>
+</div>
+</div>
+</div>
+
+<!-- Controls -->
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+<! --------------------------------------- end carousel  -------------------------------!>
+<!------------------------- start about me ---------------------------------->
+<section class="about-me text-center" id="about-me">
+<div class="container">
+
+        <div class="col-lg-4 col-sm-12">
+    <img class=" wow rotateInDownLeft" data-wow-delay="1s" data-wow-offset="300" src="images\me.jpg" alt="about me" width="300" height="300">
+            </div>
+        <div class="par wow rotateInDownRight" data-wow-offset="300" data-wow-delay="1s">
+
+    <h1>About Me</h1>
+    <p>Tarek Abd-elnasser Rida Eltaher
+ 
+⦁	Personal data:
+⦁	Date of birth : 1/ 9 / 1994
+⦁	Nationality  :  Egyptian
+⦁	Military Service : not yet
+⦁	Marital Status  : Single
+⦁	Phone No.  002 – 01065596566
+⦁	Email  ⦁	tarek.rida1@hotmail.com 
+⦁	Add: Luxor,  post office ST  .
+
+⦁	QUALIFICATIONS :  
+⦁	South valley University
+⦁	Faculty of tourism & Hotels 
+⦁	Hotel department   2016   
+
+⦁	OBJECTIVE :
+⦁	Looking for more experience in the hospitality industry.
+
+
+⦁	Languages: 
+⦁	Arabic : Mother tongue
+⦁	English : Very good 
+⦁	italian : good</p>
+        </div>
+    </div>
+
+</section>
+<!------------------------ end about me --------------------------------->
+  <! --------------------------------------- start about -------------------------------!>
+<section class="about text-center wow rollIn" data-wow-f="offset="300"" data-wow-delay="1s">
+    <div class="container"><h1>This Is My Personal Website <span>Tarek</span></h1>
+<p class="lead">this website was designed to help you to buy by any tech devices , this website was designed to help you to buy by any tech devices</p>
+    </div>
+</section>
+ <! --------------------------------------- end about  -------------------------------!>
+
+<! --------------------------------------- start features  -------------------------------!>
+<div class="clear"></div>
+<div class="features text-center wow bounceIn" data-wow-duration="2s">
+    <div class="container">
+        <h1>My Skills</h1>
+        <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+    <div class="feat">
+        <h4>Photographer</h4>
+        <p>text lorem is the text i write when i need this becaus whene i whrite any text lorem is the text i write when i need this becaus whene i whrite anytext lorem is the text i write when i need this becaus whene i whrite any</p>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+    <div class="feat">
+        <h4>Web designer</h4>
+        <p>text lorem is the text i write when i need this becaus whene i whrite any text lorem is the text i write when i need this becaus whene i whrite anytext lorem is the text i write when i need this becaus whene i whrite any</p>
+    </div>
+    </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+    <div class="feat">
+        <h4>Mobile Software</h4>
+        <p>text lorem is the text i write when i need this becaus whene i whrite any text lorem is the text i write when i need this becaus whene i whrite anytext lorem is the text i write when i need this becaus whene i whrite any</p>
+    </div>
+    </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+    <div class="feat">
+        <h4>Computer maintenance</h4>
+        <p>text lorem is the text i write when i need this becaus whene i whrite any text lorem is the text i write when i need this becaus whene i whrite anytext lorem is the text i write when i need this becaus whene i whrite any</p>
+    </div>
+    </div>
+</div>
+  </div>
+</div>
+ <!------------------------------------- end features  ------------------------------->
+
+  <!----------------- start Carousel_testimonials ---------->
+        <section class="testimonials text-center">
+<div class="container">
+                <h1 class="wow fadeInRight">what our customer say?</h1>
+
+    <div id="carousel_testimonials" class="carousel slide wow fadeInLeft" data-ride="carousel">
+<!-- Indicators -->
+
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<p class="lead">The Internet is becoming the town square for the global village of tomorrow. </p>
+<span>Tarek</span>
+</div>
+<div class="item">
+<p class="lead">If African farmers can use improved seeds and better practices to grow more crops and get them to market, then millions of families can earn themselves a better living and a better life. </p>
+<span>Moustafa</span>
+</div>
+<div class="item">
+<p class="lead">Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important. </p>
+  <span>Kareem</span>
+</div>
+</div>
+<ol class="carousel-indicators">
+<li data-target="#carousel_testimonials" data-slide-to="0" class="active">
+<img src="images\tarek.jpg" alt="Tarek"> </li>
+<li data-target="#carousel_testimonials" data-slide-to="1">
+<img src="images\moustafa.jpg" alt="Moustafa"> </li>
+<li data-target="#carousel_testimonials" data-slide-to="2">
+<img src="images\kareem.jpg" alt="Kareem"> </li>
+</ol>
+</div>
+
+</div>
+    </section>
+<!----------------- end Carousel_testimonials ---------->
+<!----------------- price table --------------->
+<section class="price-table text-center">
+<div class="container">
+<h1 class="wow rubberBand" data-wow-duration="2s">My amazing Prices</h1>
+<div class="row">
+<div class="col-lg-3 col-sm-6 col-xs-12">
+    <div class="price-box wow jello" data-wow-duration="1s">
+    <h3 class="text-primary">Plan #2</h3>
+        <p class="center-block">$55</p>
+        <ul class="list-unstyled">
+        <li>camera: 21 mp</li>
+            <li>ram: 2 gb</li>
+            <li>network: 4g</li>
+            <li>bettary: 3000 </li>
+            <li>camera: 21 mp</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Order Now</a>
+    </div>
+    </div>
+  <div class="col-lg-3 col-sm-6 col-xs-12">
+    <div class="price-box wow jello" data-wow-duration="1s">
+    <h3 class="text-danger">Plan #2</h3>
+        <p class="center-block">$55</p>
+        <ul class="list-unstyled">
+        <li>camera: 21 mp</li>
+            <li>ram: 2 gb</li>
+            <li>network: 4g</li>
+            <li>bettary: 3000 </li>
+            <li>camera: 21 mp</li>
+        </ul>
+        <a href="#" class="btn btn-danger">Order Now</a>
+    </div>
+    </div>
+         <div class="col-lg-3 col-sm-6 col-xs-12">
+    <div class="price-box wow jello" data-wow-duration="1s">
+    <h3 class="text-info">Plan #3</h3>
+        <p class="center-block">$55</p>
+        <ul class="list-unstyled">
+        <li>camera: 21 mp</li>
+            <li>ram: 2 gb</li>
+            <li>network: 4g</li>
+            <li>bettary: 3000 </li>
+            <li>camera: 21 mp</li>
+        </ul>
+        <a href="#" class="btn btn-info">Order Now</a>
+    </div>
+    </div>
+         <div class="col-lg-3 col-sm-6 col-xs-12">
+    <div class="price-box wow jello" data-wow-duration="1s">
+    <h3 class="text-success">Plan #4</h3>
+        <p class="center-block">$55</p>
+        <ul class="list-unstyled">
+        <li>camera: 21 mp</li>
+            <li>ram: 2 gb</li>
+            <li>network: 4g</li>
+            <li>bettary: 3000 </li>
+            <li>camera: 21 mp</li>
+        </ul>
+        <a href="#" class="btn btn-success">Order Now</a>
+    </div>
+    </div>
+</div>
+</div>
+
+</section>
+            <!------------------ end price table ------------>
+<!------------------- start our team ---------------------->
+<section class="our-team text-center">
+
+    <div class="container">
+    <div class="team">
+         <h1 class=" wow wobble" data-wow-duration="2s">Meet Our Awesome Team </h1>
+        <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="persone wow rotateIn" data-wow-duration="1s">
+            <img src="images\j1f9DiJi.jpg" class="img-circle" alt="bill gates" width="130" height="130">
+                <h3>Bill gates</h3>
+                <p>dsnks hb dghu jergier ijefj hfefek jwkebi fweib niwef jbiwueb wfibfewi</p>
+            </div>
+
+            </div>
+
+             <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="persone wow rotateIn" data-wow-duration="1s">
+            <img src="images\steve-jobs.jpg" class="img-circle" alt="steve-jobs" width="130" height="130">
+                     <h3>steve jobs</h3>
+                     <p>dsnks hb dghu jergier ijefj hfefek jwkebi fweib niwef jbiwueb wfibfewi</p>
+            </div>
+
+            </div>
+
+             <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="persone wow rotateIn" data-wow-duration="1s">
+            <img src="images\Satya-Nadella-quotes.jpg" class="img-circle" alt="Satya-Nadella" width="130" height="130">
+                 <h3>Satya Nadella</h3>
+                 <p>dsnks hb dghu jergier ijefj hfefek jwkebi fweib niwef jbiwueb wfibfewi</p>
+            </div>
+
+            </div>
+
+             <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="persone wow rotateIn" data-wow-duration="1s">
+            <img src="images\mark-zuckerberg.jpg" class="img-circle" alt="mark-zuckerberg" width="130" height="130">
+                 <h3>mark zuckerberg</h3>
+                 <p>dsnks hb dghu jergier ijefj hfefek jwkebi fweib niwef jbiwueb wfibfewi</p>
+            </div>
+                            </div>
+        </div>
+        </div>
+    </div>
+</section>
+          <!------------------- end our team -------------------
+<!----------- start subscribe ------------>
+   <div class="container">
+<section class="subscribe text-center">
+
+    <h1 class="wow wobble" data-wow-duration="1s">Keep In Touch</h1>
+    <p class="lead wow bounceInDown" data-wow-duration="1s">Sign Up Newsletter Don't Worry About Spam We Hate It Too</p>
+    <form class="form-inline wow bounceIn" data-wow-duration="2s">
+    <input class="form-control text-center" type="text" placeholder="Write Your Email Here">
+        <button class="btn btn-danger"><i class="fa fa-edit fa-lg"></i>Subscribe</button>
+    </form>
+
+</section>
+</div>
+<!----------- end subscribe ------------>
+
+<!-------------- start stats ---------------->
+<section class="statistics text-center">
+    <div class="data">
+<div class="container">
+    <h1 class="wow fadeInRight" data-wow-duration="2s">Our Main Statistics</h1>
+    <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+            <div class="stats wow flipInX" data-wow-duration="1s">
+            <i class="fa fa-users fa-5x"></i>
+                <p>33,555</p>
+                <span>Statsfied Users</span>
+            </div>
+        </div>
+
+         <div class="col-lg-3 col-md-6">
+            <div class="stats wow flipInX" data-wow-duration="1s">
+           <i class="fa fa-comments fa-5x"></i>
+                    <p>63,555</p>
+                <span>Posted Comments</span>
+            </div>
+        </div>
+
+         <div class="col-lg-3 col-md-6">
+            <div class="stats wow flipInX" data-wow-duration="1s">
+        <i class="fa fa-suitcase fa-5x"></i>
+                    <p>22,555</p>
+                <span>Projects Done</span>
+            </div>
+        </div>
+
+         <div class="col-lg-3 col-md-6">
+            <div class="stats wow flipInX" data-wow-duration="1s">
+          <i class="fa fa-support fa-5x"></i>
+                    <p>1,555</p>
+                <span>Tickets Archived</span>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</div>    
+</section>
+ <!-------------- end stats ---------------->
+<!------------- our skills-------------->
+<section class="our-skills" id="my-works">
+<div class="container">
+    <h1 class="text-center wow zoomIn" data-wow-duration="3s">Our Skills</h1>
+    <div class="row">
+        <!------- start progress skills --------->
+        <div class="col-md-5">
+        <div class="skills-progress wow zoomInDown" data-wow-duration="2s">
+            <div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                Html5 / Css
+                </div>
+            </div>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                PHP / MySQL
+                </div>
+            </div>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                Javascript / JQuery
+                </div>
+            </div>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                Wordpress
+                </div>
+            </div>
+            </div>
+        </div>
+          <!------- end progress skills --------->
+            <!------- start team --------->
+        <div class="col-md-6 col-md-offset-1">
+        <div class="Skills-info wow zoomInUp" data-wow-duration="2s">
+            <h3>About The Team</h3>
+            <p class="lead">We Are Speciallsed Desiging And Programming Team Passionate About Web Design And Creating Digtal Ideas We Will Transfer Your Idea To A digital Dream And Make YourWishes Come True </p>
+            <button type="Button" class="btn btn-primary">Talk With A Professional</button>
+            </div>
+        </div>
+          <!------- end team --------->
+    </div>
+    </div>
+</section>
+<!------------- end skills-------------->
+    <!----------------start contact us ---------->
+    <section class="contact-us text-center wow flash" data-wow-duration="2s" id="contact-me">
+        <div class="fields">
+        <div class="container">
+            <div class="row">
+            <i class="fa fa-headphones fa-5x"></i>
+           <h1>Tell Us What You Feel</h1>
+            <p class="lead">Feel Free To Contact Us Anything</p>
+            <!-------- start contact form --------->
+            
+            <form role="form">
+                <div class="col-md-6">
+                <div class="form-group wow rotateInDown" data-wow-duration="3s">      
+                    <input type="text" class="form-control input-lg" placeholder="User Name">
+                </div>
+                   <div class="form-group wow rotateInDown" data-wow-duration="3s">      
+                    <input type="text" class="form-control input-lg" placeholder="Email">
+                </div>
+                 <div class="form-group wow rotateInDown" data-wow-duration="3s">      
+                     <input type="text" class="form-control input-lg" placeholder="Phone Nuber"></div>
+                
+            </div>
+                <div class="col-md-6">
+                <div class="form-group wow rotateInDown" data-wow-duration="3s">
+                    <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg btn-block  wow rotateInDown" data-wow-duration="3s">Contact Us</button>
+                </div>
+            </form>
+                </div>
+            </div>
+             <!-------- end contact form --------->
+            
+            </div>
+        
+    
+    </section>
+      <!---------------- end contact us ---------->
+    <!-------------- our clients -------------->
+    <section class="our-clients">
+    <div class="container">
+        <div class="row">
+        <ul class="list-unstyled">
+            <li class="col-md-2 col-xs-4 wow rubberBand" data-wow-duration="2s">
+            <img class="img-responsive center-block" src="images\clients\Veeco_company_logo.png" alt="Veeco" width="126" height="80">
+                 </li>
+                <li class="col-md-2 col-xs-4 wow rubberBand" data-wow-duration="2s">
+            <img class="img-responsive center-block" src="images\clients\Loblaw_Companies_Logo.svg.png" alt="Loblaw" width="126" height="80">
+                 </li>
+                 <li class="col-md-2 col-xs-4 wow rubberBand" data-wow-duration="2s">
+            <img class="img-responsive center-block" src="images\clients\ford.png" alt="ford" width="126" height="80">
+                 </li>
+                 <li class="col-md-2 col-xs-4 wow rubberBand" data-wow-duration="2s">
+            <img class="img-responsive center-block" src="images\clients\free-vector-cnn-logo_092046_CNN_logo.png" alt="cnn" width="126" height="80">
+                 </li>
+                 <li class="col-md-2 col-xs-4 wow rubberBand" data-wow-duration="2s">
+            <img class="img-responsive center-block" src="images\clients\WSJ_logo.png" alt="wsj" width="126" height="80">
+                 </li>
+                 <li class="col-md-2 col-xs-4 wow rubberBand" data-wow-duration="2s">
+            <img class="img-responsive center-block" src="images\clients\1024px-Williams_Companies_logo.svg.png" alt="Williams" width="126" height="80">
+                 </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+    <!-------------- end clients -------------->
+    <!------------ start ultimate footer --------------------->
+    <section class="footer">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-4 col-md-6  wow lightSpeedIn" data-wow-duration="2s">
+            <h3>Site Map</h3>
+            <ul class="list-unstyled three-columns">
+            <li>Home</li>
+                    <li>Home</li>
+                    <li>Holusion</li>
+                    <li>Campany</li>
+                    <li>Code</li>
+                    <li>Design</li>
+                    <li>Host</li>
+                    <li>Clients</li>
+                
+                    <li>Contact Us</li>
+            </ul>
+            <ul class="list-unstyled social-list">
+            <li><img src="images\socialBookmarts\1477693755_social-media_facebook.png" alt="FaceBook"> </li>
+                <li><img src="images\socialBookmarts\1477693761_social-media_twitter.png" alt="Twitter"> </li>
+                <li><img src="images\socialBookmarts\1477693767_social-media_email.png" alt="Email"> </li>
+                <li><img src="images\socialBookmarts\1477693764_social-media_pinterest.png" alt="pinterest"> </li>
+                <li><img src="images\socialBookmarts\1477693769_social-media_youtube.png" alt="Youtube"> </li>
+                <li><img src="images\socialBookmarts\1477694157_social-media_wordpress.png" alt="wikipedia"> </li>
+            </ul>
+            </div>
+             <div class="col-lg-4 col-md-6  wow lightSpeedIn" data-wow-duration="2s">
+            <h3>Latest Articles</h3>
+                 <div class="media">
+                 <a class="pull-left" href="#">
+                     <img class="media-objct" src="images\Articls\1477696657_circle-edit-article.png" alt="Articl 1">
+                     
+                     </a>
+                     <div class="media-body">
+                     <h4 class="media-heading">
+                         Programmings
+                         </h4>
+                         jsnjisnfijsnfjsjasjf jas jfsajnawjfnw jnwdiw wqi wqiwqf wqi wq9n
+                     </div>
+                 </div>
+                 <div class="media">
+                 <a class="pull-left" href="#">
+                     <img class="media-objct" src="images\Articls\1477696693_article.png" alt="Articl 2">
+        
+                     </a>
+                     <div class="media-body">
+                     <h4 class="media-heading">
+                         Web Design
+                         </h4>
+                         jsnjisnfijsnfjsjasjf jas jfsajnawjfnw jnwdiw wqi wqiwqf wqi wq9n
+                     </div>
+                 </div>
+                 <div class="media">
+                 <a class="pull-left" href="#">
+                     <img class="media-objct" src="images\Articls\1477696691_news.png" alt="Articl ">
+                     
+                     </a>
+                     <div class="media-body">
+                     <h4 class="media-heading">
+                         Coding
+                         </h4>
+                         jsnjisnfijsnfjsjasjf jas jfsajnawjfnw jnwdiw wqi wqiwqf wqi wq9n
+                     </div>
+                 </div>
+            </div>
+        
+             <div class="my-works col-lg-4 wow lightSpeedIn" data-wow-duration="2s">
+            <h3>Our Awesome Work</h3>
+              <img class="img-thumbnail" src="images/1.jpg" alt="image 1" width="150" height="100"> 
+                 <img class="img-thumbnail" src="images/2.jpg" alt="image 2" width="150" height="100"> 
+                 <img class="img-thumbnail" src="images/3.jpg" alt="image 3" width="150" height="100"> 
+                 <img class="img-thumbnail" src="images/4.jpg" alt="image 4" width="150" height="100"> 
+                 
+            </div>
+        </div>
+        
+        </div>
+    </section>
+    <div class="copyright text-center">
+        Copyright &copy; 2016 <span>TaReK RiDa Tamplate</span> .Inc
+        </div>
+    <!------------ end ultimate footer --------------------->
+
+    
+</body></html>
